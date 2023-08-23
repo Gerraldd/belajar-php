@@ -8,8 +8,10 @@
         */
         $color = "merah";
         echo "Rumah saya " . $color . "<br>";
-        echo "Motor saya " . $color . "<br>";
-        echo "Jaket saya " . $color . "<br>";
+        //menampilkan nilai dari variable color.
+        echo "Motor saya " . $COLOR . "<br>";
+        //variable tidak terdefinisi.
+        echo "Jaket saya " . $CoLOr . "<br>";
         ?>
     </body>
 </html>
